@@ -469,6 +469,56 @@ export default function Projects() {
       ),
     },
     {
+      title: "Aman Modi",
+      imageUrlFront: "./assets/members/Aman.jpg",
+      imageUrlBack: "./assets/badges/LevelAlpha.png",
+      description: (
+        <div className="description">
+          <ul>
+            <li>
+              <strong className="bold-black">ID:</strong>{" "}
+              <span className="list-content">B521010</span>
+            </li>
+            <li style={{ marginTop: "10px" }}>
+              <strong className="bold-black">Branch:</strong>{" "}
+              <span className="list-content">Computer Engineering</span>
+            </li>
+            <div className="social">
+              <li style={{ marginTop: "10px" }}>
+                <strong className="bold-black"> Socials : </strong>
+              </li>
+              &nbsp;&nbsp;
+              <a
+                href="https://github.com/amanmodiii"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <VscGithub />{" "}
+              </a>
+              &nbsp;
+              <a
+                href="https://www.linkedin.com/in/amanmodiii/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin />{" "}
+              </a>
+              &nbsp;
+              <a
+                href="mailto:b521010@iiit-bh.ac.in
+                "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <VscMail />
+              </a>
+              &nbsp;
+            </div>
+          </ul>
+        </div>
+      ),
+    },
+    {
       title: "Rohan Mohanty",
       imageUrlFront: "./assets/members/Rohan Mohanty.jpeg",
       imageUrlBack: "./assets/badges/LevelBeta.png",
