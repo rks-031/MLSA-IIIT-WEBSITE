@@ -1,6 +1,5 @@
 import React from "react";
 import "../CSS_files/Milestones.css";
-import "animate.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { VscAzure } from "react-icons/vsc";
