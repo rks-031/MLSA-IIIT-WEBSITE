@@ -1,10 +1,10 @@
 import "./App.css";
-import Zero from "./components/Zero";
+import Zero from "./components/Zerojs";
 import React from "react";
-import Title from "./components/Title";
-import Application from "./pages/Application";
-import Milestones from "./pages/Milestones";
-import Chapter from "./pages/Chapter";
+import Title from "./components/Title.js";
+import Application from "./pages/Application.js";
+import Milestones from "./pages/Milestones..js";
+import Chapter from "./pages/Chapter.js";
 
 // import { Link } from "react-router-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
