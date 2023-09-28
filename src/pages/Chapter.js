@@ -5,7 +5,7 @@ import "../CSS_files/Chapter.css";
 import "../CSS_files/Carousel.css";
 import Footer from "../components/Footer.js";
 import Navbar from "../components/Navbar.js";
-import Carousel from "../components/Carousel";
+import Carousel from "../components/Carousel.js";
 import { VscGithub, VscMail } from "react-icons/vsc";
 import { FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
