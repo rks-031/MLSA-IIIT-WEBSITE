@@ -3,7 +3,7 @@ import Zero from "./components/Zero.js";
 import React from "react";
 import Title from "./components/Title.js";
 import Application from "./pages/Application.js";
-import Milestones from "./pages/Milestones..js";
+import Milestones from "./pages/Milestones.js";
 import Chapter from "./pages/Chapter.js";
 
 // import { Link } from "react-router-dom";
