@@ -3,8 +3,8 @@ import Lottie from "lottie-react";
 import Typed from "typed.js";
 import arrow from "../images/arrow.json";
 import "../CSS_files/Application.css";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../components/Navbar.js";
+import Footer from "../components/Footer.js";
 
 function Application() {
   const numberOfArrows = 9; // Number of arrow animations
