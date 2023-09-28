@@ -1,7 +1,7 @@
 import React from "react";
 import "../CSS_files/Milestones.css";
 import Navbar from "../components/Navbar.js";
-import Footer from "../components/Footerjs";
+import Footer from "../components/Footer.js";
 import { VscAzure } from "react-icons/vsc";
 import {
   FaLinkedin,

@@ -1,5 +1,5 @@
 import "./App.css";
-import Zero from "./components/Zerojs";
+import Zero from "./components/Zero.js";
 import React from "react";
 import Title from "./components/Title.js";
 import Application from "./pages/Application.js";
