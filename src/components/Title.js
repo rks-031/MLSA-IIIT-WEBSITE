@@ -68,6 +68,34 @@ function Title() {
             are an ambassador, you are introduced to the amazing community and
             you can start <strong style={{ color: "#4b6cb7" }}>hosting</strong>{" "}
             events!
+            <br />
+            <br />
+            <strong style={{ color: "#4b6cb7" }}>MLSA @ IIIT BBSR</strong>{" "}
+            serves as a hub for students at IIIT who are passionate about
+            technology and want to make a positive impact on their community.
+            The chapter provides a platform for students to come together,
+            collaborate, and work towards a common goal of enhancing their
+            technical skills while also giving back to the community.
+            <br />
+            <br />
+            Furthermore, being a part of the{" "}
+            <strong style={{ color: "#4b6cb7" }}>MLSA IIIT Chapter</strong>{" "}
+            opens doors to a vibrant community of{" "}
+            <strong style={{ color: "#4b6cb7" }}>
+              like-minded individuals
+            </strong>
+            ,<strong style={{ color: "#4b6cb7" }}>mentors</strong>, and{" "}
+            <strong style={{ color: "#4b6cb7" }}>professionals</strong>. It
+            offers a unique environment where students can learn, grow, and
+            develop their technical expertise. The chapter also sponsors various
+            &nbsp;
+            <strong style={{ color: "#4b6cb7" }}>
+              technology-related events
+            </strong>{" "}
+            and <strong style={{ color: "#4b6cb7" }}>initiatives</strong>{" "}
+            organized by its members, further fostering a culture of{" "}
+            <strong style={{ color: "#4b6cb7" }}>learning</strong> and{" "}
+            <strong style={{ color: "#4b6cb7" }}>sharing</strong>.
           </p>
           <br />
           <br />
