@@ -2,14 +2,7 @@ import React from "react";
 import "../CSS_files/Zero.css";
 
 function Zero() {
-  const containerStyle = {
-    backgroundImage: 'url("./assets/Zero-page/mlsa_bg.png")',
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center center",
-    minHeight: "100vh",
-    position: "relative",
-  };
+
 
   // const gifStyle = {
   //   position: "absolute",
@@ -27,22 +20,16 @@ function Zero() {
     maxWidth: "80px",
   };
 
-  const btnStyle = {
-    position: "absolute",
-    bottom: "3%",
-    left: "2%",
-    width: "30%",
-    maxWidth: "190px",
-  };
 
   return (
     <div>
-      <div style={containerStyle}>
+      <div className="containerStyle">
         <a href="/home">
           <img
             src="./assets/Zero-page/btnLetsBegin.png"
             alt="Button"
-            style={btnStyle}
+            className="btnStyle"
+            loading="eager"
           />
         </a>
         <img

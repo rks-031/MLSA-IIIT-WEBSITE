@@ -4,6 +4,12 @@
   --color-gray: #9CA3AF;
   --color-black: #1F2937;
   --card-size: 40rem;
+  --card-size1: 20rem;
+  --card-size2: 35rem;
+  --card-size3: 28rem;
+  --card-size4: 31rem;
+
+
 }
 
 .page {
@@ -87,3 +93,137 @@
   right: 0;
   transform: translateX(100%) translateY(-50%);
 }
+
+
+
+@media screen and (max-width: 256px) {
+
+ .nav.left {
+  transform: translateX(-100%) translateY(-50%);
+  margin-top: 260px;
+  color: #325381;
+  margin-left: 150px;
+}
+
+.nav.right {
+  right: 0;
+  transform: translateX(100%) translateY(-50%);
+  margin-top: 260px;
+  margin-right: 150px;
+  color: #325381;
+
+}
+} 
+@media screen and (max-width: 360px) {
+  .nav.left {
+    transform: translateX(-100%) translateY(-50%);
+    margin-top: 260px;
+    color: #325381;
+    margin-left: 150px;
+  }
+  
+  .nav.right {
+    right: 0;
+    transform: translateX(100%) translateY(-50%);
+    margin-top: 260px;
+    margin-right: 150px;
+    color: #325381;
+  
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .carousel{
+    width: var(--card-size1);
+  }
+  .card img{
+    width: 180px;
+    height: 220px;
+  }
+  .nav.left {
+    transform: translateX(-100%) translateY(-50%);
+    margin-top: 260px;
+    color: #325381;
+    margin-left: 150px;
+  }
+  
+  .nav.right {
+    right: 0;
+    transform: translateX(100%) translateY(-50%);
+    margin-top: 260px;
+    margin-right: 150px;
+    color: #325381;
+  
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carousel{
+    width: var(--card-size4);
+  }
+  .card img{
+    width: 260px;
+    height: 300px;
+  }
+
+.nav.left {
+  transform: translateX(-100%) translateY(-50%);
+  margin-top: 260px;
+  color: #325381;
+  margin-left: 190px;
+}
+
+.nav.right {
+  right: 0;
+  transform: translateX(100%) translateY(-50%);
+  margin-top: 260px;
+  margin-right: 190px;
+  color: #325381;
+
+}
+}
+
+@media screen and (max-width: 608px) {
+  .carousel{
+    width: var(--card-size3);
+  }
+  .card img{
+    width: 240px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .carousel{
+    width: var(--card-size4);
+  }
+  .card img{
+    width: 300px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel{
+    width: var(--card-size2);
+  }
+}
+/* 
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1020px) {
+
+}
+
+@media screen and (max-width: 900px) {
+
+} */
+
+
+
+
+
+
+
