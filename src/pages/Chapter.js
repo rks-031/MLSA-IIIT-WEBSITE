@@ -878,13 +878,13 @@ export default function Projects() {
       >
         <div className="card-inner">
           <div className="card-front">
-            <img className="uniform-image" src={imageUrlFront} alt={title} />
+            <img className="uniform-image" src={imageUrlFront} alt={title} loading="lazy" />
             <div className="title">
               <h2>{title}</h2>
             </div>
           </div>
           <div className="card-back">
-            <img className="uniform-image" src={imageUrlBack} alt={title} />
+            <img className="uniform-image" src={imageUrlBack} alt={title} loading="lazy" />
             {description}
           </div>
         </div>
