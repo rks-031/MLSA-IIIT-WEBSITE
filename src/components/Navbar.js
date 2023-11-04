@@ -1,8 +1,10 @@
 import React from "react";
 import "../CSS_files/Navbar.css";
+import { AuthData } from "../auth/AuthWrapper";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  const { user } = AuthData()
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light nav-design fixed-top">
@@ -51,6 +53,15 @@ function Navbar() {
                 style={{ color: "white" }}
               >
                 IIIT-BBSR Chapter
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to={user.isAuthenticated ? "/register" : "/opening"}
+                className="nav-link"
+                style={{ color: "white" }}
+              >
+                Upload
               </Link>
             </li>
           </ul>
