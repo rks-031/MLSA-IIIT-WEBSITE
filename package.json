@@ -2,12 +2,18 @@
   "name": "mlsa-iiit",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8005",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.5.1",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
     "lottie-react": "^2.4.0",
+    "nodemon": "^3.0.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
@@ -38,5 +44,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "**Microsoft Learn Student Ambassador** Website: `IIIT BHUBANESWAR` <br/><br/>\r `Created by:`\r <ul>\r   <li>Rajnish Kumar Singh</li>\r   <li>Sumit Bhusan Panda</li>\r   <li>Baivab Kundu</li>\r </ul>\r Website Link: https://mlsa-iiit-website.vercel.app/\r <br/>\r <br/>\r MLSA IIIT Chapter opens doors to a vibrant community of like-minded individuals, mentors, and professionals. <br/> It offers a unique environment where students can learn, grow, and develop their technical expertise. The chapter also sponsors various technology-related events and initiatives organized by its members, further fostering a culture of learning and sharing.",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kundu-baivab/MLSA-IIIT_WEBSITE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kundu-baivab/MLSA-IIIT_WEBSITE/issues"
+  },
+  "homepage": "/"
 }
