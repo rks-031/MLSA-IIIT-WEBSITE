@@ -16,7 +16,7 @@ export default function Projects() {
   const [data, setData] = useState([]);
 
   const getUserData = async () => {
-    const res = await axios.get("/getdata?sort=dateAdded&order=-1", {
+    const res = await axios.get("https://mlsa-iiit-server.onrender.com/getdata?sort=dateAdded&order=-1", {
       headers: {
         "Content-Type": "application/json",
       },
