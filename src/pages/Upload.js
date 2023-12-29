@@ -80,7 +80,7 @@ const Upload = () => {
 
     try{
       // console.log("Before making POST request");
-      const res = await axios.post('/register', formData, config);
+      const res = await axios.post('https://mlsa-iiit-server.onrender.com/register', formData, config);
       // console.log("After making POST request");
 
       if (res.data.status === 401 || !res.data) {
