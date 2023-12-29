@@ -15,7 +15,9 @@ app.use(cookieParser())
 app.use(router)
 app.use("/uploads",express.static("./uploads"));
 
-
+app.get("/",(req,res)=>{
+    res.status(200).send("<h1>Heartbeat-OK</h1>");
+})
 app.listen(port,()=>{
     console.log(`Server on port ${port}`)
 })
