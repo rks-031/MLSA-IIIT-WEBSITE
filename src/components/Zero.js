@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS_files/Zero.css";
+import "../CSS_files/Zero1.css";
 
 function Zero() {
 
@@ -12,15 +12,20 @@ function Zero() {
   //   maxWidth: "150px",
   // };
 
-  const logoStyle = {
+  /*const logoStyle = {
     position: "absolute",
     bottom: "2%",
     right: "2%",
     width: "8%",
     maxWidth: "80px",
-  };
+  };*/
 
 
+  // <img
+  //         src="./assets/Zero-page/iiit_logo.png"
+  //         alt="Logo"
+  //         style={logoStyle}
+  //       />
   return (
     <div>
       <div className="containerStyle">
@@ -32,11 +37,6 @@ function Zero() {
             loading="eager"
           />
         </a>
-        <img
-          src="./assets/Zero-page/iiit_logo.png"
-          alt="Logo"
-          style={logoStyle}
-        />
       </div>
     </div>
   );
