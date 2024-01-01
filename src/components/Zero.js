@@ -1,9 +1,7 @@
 import React from "react";
-import "../CSS_files/Zero1.css";
+import "../CSS_files/Zero.css";
 
 function Zero() {
-
-
   // const gifStyle = {
   //   position: "absolute",
   //   top: "2%",
@@ -19,7 +17,6 @@ function Zero() {
     width: "8%",
     maxWidth: "80px",
   };*/
-
 
   // <img
   //         src="./assets/Zero-page/iiit_logo.png"
