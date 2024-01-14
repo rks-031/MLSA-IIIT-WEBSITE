@@ -1,3 +1,4 @@
+/*
 .containerStyle {
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,7 +13,7 @@
     max-width: 190px;
 }
 
-/* Laptop */
+// Laptop
 @media (max-width: 916px) and (max-height: 523px) {
     .containerStyle {
         background-image: url(../../public/assets/Zero-page/mlsa_laptop.png);
@@ -25,7 +26,7 @@
     }
 }
 
-/* Samsung Galaxy Z Flip */
+// Samsung Galaxy Z Flip
 @media (max-width: 768px) and (max-height: 167.3mm) {
     .containerStyle {
         background-image: url(../../public/assets/Zero-page/mlsa_galaxy_zflip.png);
@@ -38,7 +39,7 @@
     }
 }
 
-/* Redmi 7 */
+// Redmi 7
 @media (max-width: 620px) and (max-height: 893px) {
     .containerStyle {
         background-image: url(../../public/assets/Zero-page/mlsa_redmi7.png);
@@ -51,7 +52,7 @@
     }
 }
 
-/* iPhone 1 */
+// iPhone 1
 @media (max-width: 560px) and (max-height: 480px) {
     .containerStyle {
         background-image: url(../../public/assets/Zero-page/mlsa_iphone1.png);
@@ -64,7 +65,7 @@
     }
 }
 
-/* iPhone 2 (More Width) */
+// iPhone 2 (More Width)
 @media (max-width: 560px) and (max-height: 523px) {
     .containerStyle {
         background-image: url(../../public/assets/Zero-page/mlsa_iphone2.png);
@@ -77,7 +78,7 @@
     }
 }
 
-/* Samsung Galaxy Z Fold */
+// Samsung Galaxy Z Fold
 @media (max-width: 420px) and (max-height: 160.9mm) {
     .containerStyle {
         background-image: url(../../public/assets/Zero-page/mlsa_galaxy_zfold.png);
@@ -90,7 +91,7 @@
     }
 }
 
-/* Samsung Galaxy Z Unfold */
+// Samsung Galaxy Z Unfold
 @media (max-width: 360px) and (max-height: 160.9mm) {
     .containerStyle {
         background-image: url(../../public/assets/Zero-page/mlsa_galaxy_zunfold.png);
@@ -103,7 +104,7 @@
     }
 }
 
-/* Tablet */
+// Tablet
 @media (max-width: 1487px) and (max-height: 523px) {
     .containerStyle {
         background-image: url(../../public/assets/Zero-page/mlsa_tablet.png);
@@ -115,3 +116,33 @@
         left: 5%;
     }
 }
+*/
+
+body{
+    background: "linear-gradient(to bottom, #000000, #434343)";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
