@@ -11,9 +11,9 @@ function Title() {
     <div>
       <Navbar />
       <div className="home-container container">
-        <div className="text-center">
+        <div className="text-center mt-5">
           <img
-            src="/assets/Zero-page/iiit_logo.png"
+            src="./assets/Zero-page/iiit_logo.png"
             className="title-logo"
             alt="iiit_logo"
           />

@@ -2,6 +2,7 @@ import React, { useState, useReducer } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthData } from "../auth/AuthWrapper";
 import "../CSS_files/backend.css";
+import Navbar from "../components/Navbar";
 
 const Opening = () => {
   const navigate = useNavigate();
@@ -24,13 +25,14 @@ const Opening = () => {
   };
   return (
     <>
-      <nav class="navbar sticky-top navbar-expand-lg navbar-dark transparent-navbar">
+      {/*<nav class="navbar sticky-top navbar-expand-lg navbar-dark transparent-navbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/home">
             WELCOME TO ADMIN PAGE
           </a>
         </div>
-      </nav>
+  </nav>*/}
+      <Navbar />
       <form className="opening">
         <input
           type="text"
@@ -46,9 +48,9 @@ const Opening = () => {
           required
           name="password"
           value={formData.password}
-          onChange={(e) => setFormData({password: e.target.value })}
+          onChange={(e) => setFormData({ password: e.target.value })}
         />
-        <button onClick={doLogin} type="button" >
+        <button onClick={doLogin} type="button">
           ENTER
         </button>
       </form>

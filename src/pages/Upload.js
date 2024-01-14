@@ -25,7 +25,7 @@ const Upload = () => {
     const { value } = e.target;
     setClgid(value);
   };
-  
+
   const setData3 = (e) => {
     const { value } = e.target;
     setBranch(value);
@@ -78,9 +78,13 @@ const Upload = () => {
       },
     };
 
-    try{
+    try {
       // console.log("Before making POST request");
-      const res = await axios.post('https://mlsa-iiit-server.onrender.com/register', formData, config);
+      const res = await axios.post(
+        "https://mlsa-iiit-server.onrender.com/register",
+        formData,
+        config
+      );
       // console.log("After making POST request");
 
       if (res.data.status === 401 || !res.data) {
@@ -88,23 +92,22 @@ const Upload = () => {
       } else {
         history("/chapter");
       }
-    }catch(err){
-      console.log(err)
+    } catch (err) {
+      console.log(err);
     }
-
-    
   };
   return (
     <>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark transparent-navbar">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark transparent-navbar">
         <div class="container-fluid">
           <a class="navbar-brand " href="#">
             WELCOME TO UPLOAD PAGE
           </a>
         </div>
       </nav>
-      <div className="container my-5" >
-        <br /><br />
+      <div className="container my-5">
+        <br />
+        <br />
         <h1>Upload Products:</h1>
 
         <Form className="mt-3">
@@ -189,7 +192,12 @@ const Upload = () => {
               placeholder="Upload only .jpeg or .png files"
             />
           </Form.Group>
-          <Button className="mb-5" variant="success" type="submit" onClick={addStudentData}>
+          <Button
+            className="mb-5"
+            variant="success"
+            type="submit"
+            onClick={addStudentData}
+          >
             Submit
           </Button>
         </Form>
@@ -198,4 +206,4 @@ const Upload = () => {
   );
 };
 
-export default Upload
+export default Upload;
