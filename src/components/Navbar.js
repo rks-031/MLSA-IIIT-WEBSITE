@@ -2,7 +2,7 @@ import React from "react";
 import "../CSS_files/Navbar.css";
 import { AuthData } from "../auth/AuthWrapper";
 import { Link } from "react-router-dom";
-import logoImage from "../CSS_files/logo-navbar.png";
+import logoImage from "../images/logo-navbar.png";
 
 function Navbar() {
   const { user } = AuthData();
