@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Lottie from "react-lottie";
 import animationData from "../images/Octo-Hello.json";
 import { Button } from "react-bootstrap";
-import "../CSS_files/Zero1.css";
 
 function Zero() {
   const defaultOptions = {
